@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html>
+{% extends 'base.html.twig' %}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - SUR LA PEAU</title>
-    <meta name="description" content="SUR LA PEAU
-avec
-Mélanie Peyre
-Zoé Besmond De Senneville
-Jean-Marie Godet">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="assets/css/smooth.css">
-    <link rel="stylesheet" href="assets/css/addenda.css">
-    <link rel="stylesheet" href="assets/css/Video-Responsive.css">
-</head>
+{% block body %}
 
-<body>
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="head_bg">
     <div class="container"><a class="navbar-brand logo" href="#" id="navbar-title-slp">SUR LA PEAU&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div
@@ -130,42 +111,5 @@ Jean-Marie Godet">
         </div>
     </section>
 </main>
-<footer class="page-footer dark">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h5>Admin</h5>
-                <ul>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>A propos&nbsp;</h5>
-                <ul>
-                    <li><a href="https://www.karmaprodworks.com/" target="blank">Karma Prodworks</a></li>
-                    <li><a href="http://www.hevadis.com/" target="blank">Hevadis Distribution</a></li>
-                    <li><a href="http://globalgenesisgroup.com/" target="blank">Global Genesis Group</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3">
-                <h5>Mentions Légales</h5>
-                <ul>
-                    <li><a href="mentions.html">Mentions</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <p>© 2019 Karma Prodworks - Antoni Hadzi Janev - Hevadis Distribution</p>
-    </div>
-</footer>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-<script src="assets/js/smoothproducts.min.js"></script>
-<script src="assets/js/theme.js"></script>
-</body>
 
-</html>
+{% endblock %}
