@@ -55,7 +55,7 @@ class __TwigTemplate_2e8fb73cd2668a8177bc77bc1f0893d70944b994fdd23396ad9819a4707
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
@@ -169,7 +169,7 @@ class __TwigTemplate_2e8fb73cd2668a8177bc77bc1f0893d70944b994fdd23396ad9819a4707
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>

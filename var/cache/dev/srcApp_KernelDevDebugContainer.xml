@@ -388,10 +388,28 @@
     <service id="App\Controller\ActorsController" class="App\Controller\ActorsController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
+    <service id="App\Controller\BlogPostController" class="App\Controller\BlogPostController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\GalleryController" class="App\Controller\GalleryController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
     <service id="App\Controller\GeneseController" class="App\Controller\GeneseController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\HomeController" class="App\Controller\HomeController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\ScenarioController" class="App\Controller\ScenarioController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\TournageController" class="App\Controller\TournageController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
@@ -4250,10 +4268,22 @@
     </service>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ActorsController" class="App\Controller\ActorsController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ActorsController" class="App\Controller\ActorsController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\BlogPostController" class="App\Controller\BlogPostController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\BlogPostController" class="App\Controller\BlogPostController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\GalleryController" class="App\Controller\GalleryController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\GalleryController" class="App\Controller\GalleryController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\GeneseController" class="App\Controller\GeneseController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\GeneseController" class="App\Controller\GeneseController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ScenarioController" class="App\Controller\ScenarioController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\ScenarioController" class="App\Controller\ScenarioController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\TournageController" class="App\Controller\TournageController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\TournageController" class="App\Controller\TournageController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="maker.auto_command.make_auth" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
       <tag name="console.command" command="make:auth"/>
       <argument type="service" id="maker.maker.make_authenticator"/>

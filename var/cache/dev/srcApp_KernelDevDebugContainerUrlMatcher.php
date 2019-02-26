@@ -16,8 +16,14 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
         $this->context = $context;
         $this->staticRoutes = [
             '/actors' => [[['_route' => 'actors', '_controller' => 'App\\Controller\\ActorsController::actors'], null, null, null, false, false, null]],
+            '/blog-post' => [[['_route' => 'blog-post', '_controller' => 'App\\Controller\\BlogPostController::blogpost'], null, null, null, false, false, null]],
+            '/blog-post-list' => [[['_route' => 'blog-post-list', '_controller' => 'App\\Controller\\BlogPostListController::blogpostlist'], null, null, null, false, false, null]],
+            '/extraits' => [[['_route' => 'extraits', '_controller' => 'App\\Controller\\ExtraitsController::extraits'], null, null, null, false, false, null]],
+            '/gallery' => [[['_route' => 'gallery', '_controller' => 'App\\Controller\\GalleryController::gallery'], null, null, null, false, false, null]],
             '/genese' => [[['_route' => 'genese', '_controller' => 'App\\Controller\\GeneseController::genese'], null, null, null, false, false, null]],
-            '/home' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::home'], null, null, null, false, false, null]],
+            '/' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::home'], null, null, null, false, false, null]],
+            '/scenario' => [[['_route' => 'scenario', '_controller' => 'App\\Controller\\ScenarioController::scenario'], null, null, null, false, false, null]],
+            '/tournage' => [[['_route' => 'tournage', '_controller' => 'App\\Controller\\TournageController::scenario'], null, null, null, false, false, null]],
             '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],
             '/_profiler/search' => [[['_route' => '_profiler_search', '_controller' => 'web_profiler.controller.profiler::searchAction'], null, null, null, false, false, null]],
             '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],

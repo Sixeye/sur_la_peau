@@ -56,7 +56,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         <div
                 class=\"collapse navbar-collapse\" id=\"navcol-1\">
             <ul class=\"nav navbar-nav ml-auto\">
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"home\">ACCUEIL</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"index.php\">ACCUEIL</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
@@ -104,10 +104,10 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
             <div class=\"block-heading\"><h2 class=\"text-info\">Actualités</h2>
                 <p>Consultez les actualités du film</p>
             </div>
-            <div class=\"row justify-content-center\"><div class=\"col-md-5 feature-box\"><a href=\"blog-post-list.html\"><i class=\"icon-clock icon\" id=\"actualites_icon\"></i>
+            <div class=\"row justify-content-center\"><div class=\"col-md-5 feature-box\"><a href=\"blog-post-list\"><i class=\"icon-clock icon\" id=\"actualites_icon\"></i>
                         <h4>Actualités</h4>
                         <p>Les dernières actualités du film </p></a>
-                </div><div class=\"col-md-5 feature-box\"><a href=\"blog-post.html\"><i class=\"icon-book-open icon\" id=\"blog_icon\"></i>
+                </div><div class=\"col-md-5 feature-box\"><a href=\"blog-post\"><i class=\"icon-book-open icon\" id=\"blog_icon\"></i>
                         <h4>Blog</h4>
                         <p>La vie et les péripéties du film </p></a>
                 </div></div>
@@ -152,7 +152,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
                         <div class=\"card-body info\" id=\"id-srinath\">
                             <h4 class=\"card-title\">Srinath</h4>
                             <p class=\"card-text\">scénariste - réalisateur</p>
-                            <div class=\"icons\"><a href=\"https://www.instagram.com/srinathparis/\"><i class=\"icon-social-instagram\"></i></a><a href=\"https://twitter.com/Sirnath\"><i class=\"icon-social-twitter\"></i></a></div>
+                            <div class=\"icons\"><a href=\"https://www.instagram.com/srinathparis/\" target=\"blank\"><i class=\"icon-social-instagram\"></i></a><a href=\"https://twitter.com/Sirnath\" target=\"blank\"><i class=\"icon-social-twitter\"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         <div
                 class=\"collapse navbar-collapse\" id=\"navcol-1\">
             <ul class=\"nav navbar-nav ml-auto\">
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"home\">ACCUEIL</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"index.php\">ACCUEIL</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                 <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
@@ -244,10 +244,10 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
             <div class=\"block-heading\"><h2 class=\"text-info\">Actualités</h2>
                 <p>Consultez les actualités du film</p>
             </div>
-            <div class=\"row justify-content-center\"><div class=\"col-md-5 feature-box\"><a href=\"blog-post-list.html\"><i class=\"icon-clock icon\" id=\"actualites_icon\"></i>
+            <div class=\"row justify-content-center\"><div class=\"col-md-5 feature-box\"><a href=\"blog-post-list\"><i class=\"icon-clock icon\" id=\"actualites_icon\"></i>
                         <h4>Actualités</h4>
                         <p>Les dernières actualités du film </p></a>
-                </div><div class=\"col-md-5 feature-box\"><a href=\"blog-post.html\"><i class=\"icon-book-open icon\" id=\"blog_icon\"></i>
+                </div><div class=\"col-md-5 feature-box\"><a href=\"blog-post\"><i class=\"icon-book-open icon\" id=\"blog_icon\"></i>
                         <h4>Blog</h4>
                         <p>La vie et les péripéties du film </p></a>
                 </div></div>
@@ -292,7 +292,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
                         <div class=\"card-body info\" id=\"id-srinath\">
                             <h4 class=\"card-title\">Srinath</h4>
                             <p class=\"card-text\">scénariste - réalisateur</p>
-                            <div class=\"icons\"><a href=\"https://www.instagram.com/srinathparis/\"><i class=\"icon-social-instagram\"></i></a><a href=\"https://twitter.com/Sirnath\"><i class=\"icon-social-twitter\"></i></a></div>
+                            <div class=\"icons\"><a href=\"https://www.instagram.com/srinathparis/\" target=\"blank\"><i class=\"icon-social-instagram\"></i></a><a href=\"https://twitter.com/Sirnath\" target=\"blank\"><i class=\"icon-social-twitter\"></i></a></div>
                         </div>
                     </div>
                 </div>

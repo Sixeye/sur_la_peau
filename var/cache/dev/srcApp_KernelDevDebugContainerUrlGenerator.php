@@ -21,8 +21,14 @@ class srcApp_KernelDevDebugContainerUrlGenerator extends Symfony\Component\Routi
         if (null === self::$declaredRoutes) {
             self::$declaredRoutes = [
         'actors' => [[], ['_controller' => 'App\\Controller\\ActorsController::actors'], [], [['text', '/actors']], [], []],
+        'blog-post' => [[], ['_controller' => 'App\\Controller\\BlogPostController::blogpost'], [], [['text', '/blog-post']], [], []],
+        'blog-post-list' => [[], ['_controller' => 'App\\Controller\\BlogPostListController::blogpostlist'], [], [['text', '/blog-post-list']], [], []],
+        'extraits' => [[], ['_controller' => 'App\\Controller\\ExtraitsController::extraits'], [], [['text', '/extraits']], [], []],
+        'gallery' => [[], ['_controller' => 'App\\Controller\\GalleryController::gallery'], [], [['text', '/gallery']], [], []],
         'genese' => [[], ['_controller' => 'App\\Controller\\GeneseController::genese'], [], [['text', '/genese']], [], []],
-        'home' => [[], ['_controller' => 'App\\Controller\\HomeController::home'], [], [['text', '/home']], [], []],
+        'home' => [[], ['_controller' => 'App\\Controller\\HomeController::home'], [], [['text', '/']], [], []],
+        'scenario' => [[], ['_controller' => 'App\\Controller\\ScenarioController::scenario'], [], [['text', '/scenario']], [], []],
+        'tournage' => [[], ['_controller' => 'App\\Controller\\TournageController::scenario'], [], [['text', '/tournage']], [], []],
         '_twig_error_test' => [['code', '_format'], ['_controller' => 'twig.controller.preview_error::previewErrorPageAction', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
         '_wdt' => [['token'], ['_controller' => 'web_profiler.controller.profiler::toolbarAction'], [], [['variable', '/', '[^/]++', 'token', true], ['text', '/_wdt']], [], []],
         '_profiler_home' => [[], ['_controller' => 'web_profiler.controller.profiler::homeAction'], [], [['text', '/_profiler/']], [], []],
