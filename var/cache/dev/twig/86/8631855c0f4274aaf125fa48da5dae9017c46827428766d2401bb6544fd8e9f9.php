@@ -105,14 +105,14 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 16
-        echo "        <link rel=\"stylesheet\" href=\"bootstrap/css/bootstrap.min.css\">
+        echo "        <link rel=\"stylesheet\" href=\"/bootstrap/css/bootstrap.min.css\">
         <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i\">
-        <link rel=\"stylesheet\" href=\"fonts/fontawesome-all.min.css\">
-        <link rel=\"stylesheet\" href=\"fonts/simple-line-icons.min.css\">
+        <link rel=\"stylesheet\" href=\"/fonts/fontawesome-all.min.css\">
+        <link rel=\"stylesheet\" href=\"/fonts/simple-line-icons.min.css\">
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css\">
-        <link rel=\"stylesheet\" href=\"css/smooth.css\">
-        <link rel=\"stylesheet\" href=\"css/addenda.css\">
-        <link rel=\"stylesheet\" href=\"css/Video-Responsive.css\">
+        <link rel=\"stylesheet\" href=\"/css/smooth.css\">
+        <link rel=\"stylesheet\" href=\"/css/addenda.css\">
+        <link rel=\"stylesheet\" href=\"/css/Video-Responsive.css\">
     ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -199,11 +199,11 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 62
-        echo "            <script src=\"js/jquery.min.js\"></script>
-            <script src=\"bootstrap/js/bootstrap.min.js\"></script>
+        echo "            <script src=\"/js/jquery.min.js\"></script>
+            <script src=\"/bootstrap/js/bootstrap.min.js\"></script>
             <script src=\"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js\"></script>
-            <script src=\"js/smoothproducts.min.js\"></script>
-            <script src=\"js/theme.js\"></script>
+            <script src=\"/js/smoothproducts.min.js\"></script>
+            <script src=\"/js/theme.js\"></script>
         ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -240,14 +240,14 @@ Mélanie Peyre
 Zoé Besmond De Senneville
 Jean-Marie Godet de Srinath C. Samarasinghe\">
     {% block stylesheets %}
-        <link rel=\"stylesheet\" href=\"bootstrap/css/bootstrap.min.css\">
+        <link rel=\"stylesheet\" href=\"/bootstrap/css/bootstrap.min.css\">
         <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i\">
-        <link rel=\"stylesheet\" href=\"fonts/fontawesome-all.min.css\">
-        <link rel=\"stylesheet\" href=\"fonts/simple-line-icons.min.css\">
+        <link rel=\"stylesheet\" href=\"/fonts/fontawesome-all.min.css\">
+        <link rel=\"stylesheet\" href=\"/fonts/simple-line-icons.min.css\">
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css\">
-        <link rel=\"stylesheet\" href=\"css/smooth.css\">
-        <link rel=\"stylesheet\" href=\"css/addenda.css\">
-        <link rel=\"stylesheet\" href=\"css/Video-Responsive.css\">
+        <link rel=\"stylesheet\" href=\"/css/smooth.css\">
+        <link rel=\"stylesheet\" href=\"/css/addenda.css\">
+        <link rel=\"stylesheet\" href=\"/css/Video-Responsive.css\">
     {% endblock %}
 </head>
     <body>
@@ -286,11 +286,11 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
             </footer>
         {% endblock %}
         {% block javascripts %}
-            <script src=\"js/jquery.min.js\"></script>
-            <script src=\"bootstrap/js/bootstrap.min.js\"></script>
+            <script src=\"/js/jquery.min.js\"></script>
+            <script src=\"/bootstrap/js/bootstrap.min.js\"></script>
             <script src=\"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js\"></script>
-            <script src=\"js/smoothproducts.min.js\"></script>
-            <script src=\"js/theme.js\"></script>
+            <script src=\"/js/smoothproducts.min.js\"></script>
+            <script src=\"/js/theme.js\"></script>
         {% endblock %}
     </body>
 </html>

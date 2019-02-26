@@ -56,21 +56,21 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         <div
                 class=\"collapse navbar-collapse\" id=\"navcol-1\">
             <ul class=\"nav navbar-nav ml-auto\">
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"index.html\">ACCUEIL</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese.html\">GENESE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors.html\">LES COMEDIENS</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario.html\">EXTRAITS DU SCENARIO</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery.html\">GallerIE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits.html\">EXTRAITS DU FILM</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage.html\">LIEUX DE TOURNAGE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list.html\">ACTUALITES</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post.html\">BLOG</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"home\">ACCUEIL</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <main id=\"global-bg\" class=\"page landing-page\">
-    <section class=\"clean-block clean-hero\" style=\"background-image: url(&quot;assets/img/gallery/SURLAPEAU2017__64511BG.jpg&quot;);color: rgba(255,196,196,0.90);\">
+    <section class=\"clean-block clean-hero\" style=\"background-image: url(&quot;img/gallery/SURLAPEAU2017__64511BG.jpg&quot;);color: rgba(255,196,196,0.90);\">
         <div id=\"intro-text\" class=\"text\"><h2 id=\"big-title\">SUR LA PEAU</h2>
             <p>Un long métrage avec&nbsp;<br>Mélanie Peyre,<br>Zoé Besmond De Senneville, Jean-Marie Godet, Edgar Sekloka,<br>Massimo Bellini, Christian Mupondo<br>et<br>avec l'aimable participation de<br>Antoine Basler<br>Jean-Michel Correia<br>Alex
                 Martin<br><br></p><button class=\"btn btn-outline-light btn-lg\" type=\"button\" id=\"roman_btn\"><a target=\"_blank\" href=\"http://www.srinath-pro.com/slp_roman\">LE ROMAN</a></button>
@@ -196,21 +196,21 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         <div
                 class=\"collapse navbar-collapse\" id=\"navcol-1\">
             <ul class=\"nav navbar-nav ml-auto\">
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"index.html\">ACCUEIL</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese.html\">GENESE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors.html\">LES COMEDIENS</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario.html\">EXTRAITS DU SCENARIO</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery.html\">GallerIE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits.html\">EXTRAITS DU FILM</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage.html\">LIEUX DE TOURNAGE</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list.html\">ACTUALITES</a></li>
-                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post.html\">BLOG</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"home\">ACCUEIL</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
+                <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <main id=\"global-bg\" class=\"page landing-page\">
-    <section class=\"clean-block clean-hero\" style=\"background-image: url(&quot;assets/img/gallery/SURLAPEAU2017__64511BG.jpg&quot;);color: rgba(255,196,196,0.90);\">
+    <section class=\"clean-block clean-hero\" style=\"background-image: url(&quot;img/gallery/SURLAPEAU2017__64511BG.jpg&quot;);color: rgba(255,196,196,0.90);\">
         <div id=\"intro-text\" class=\"text\"><h2 id=\"big-title\">SUR LA PEAU</h2>
             <p>Un long métrage avec&nbsp;<br>Mélanie Peyre,<br>Zoé Besmond De Senneville, Jean-Marie Godet, Edgar Sekloka,<br>Massimo Bellini, Christian Mupondo<br>et<br>avec l'aimable participation de<br>Antoine Basler<br>Jean-Michel Correia<br>Alex
                 Martin<br><br></p><button class=\"btn btn-outline-light btn-lg\" type=\"button\" id=\"roman_btn\"><a target=\"_blank\" href=\"http://www.srinath-pro.com/slp_roman\">LE ROMAN</a></button>
