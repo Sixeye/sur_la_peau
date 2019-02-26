@@ -50,7 +50,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "    
+        echo "
 <nav class=\"navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar\" id=\"head_bg\">
     <div class=\"container\"><a class=\"navbar-brand logo\" href=\"#\" id=\"navbar-title-slp\">SUR LA PEAU&nbsp;</a><button class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#navcol-1\"><span class=\"sr-only\">Toggle navigation</span><span class=\"navbar-toggler-icon\"></span></button>
         <div
@@ -122,9 +122,9 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
                 <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery.html\"><p>Quelques photogrammes du film</p></a></div>
             <div class=\"carousel slide\" data-ride=\"carousel\" id=\"carousel-1\">
                 <div class=\"carousel-inner\" role=\"listbox\">
-                    <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>
-                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__54345.jpeg\" alt=\"Slide Image\"></div>
-                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__16576.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__54345.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__16576.jpeg\" alt=\"Slide Image\"></div>
                 </div>
                 <div><a class=\"carousel-control-prev\" href=\"#carousel-1\" role=\"button\" data-slide=\"prev\"><span class=\"carousel-control-prev-icon\"></span><span class=\"sr-only\">Previous</span></a><a class=\"carousel-control-next\" href=\"#carousel-1\" role=\"button\"
                                                                                                                                                                                                      data-slide=\"next\"><span class=\"carousel-control-next-icon\"></span><span class=\"sr-only\">Next</span></a></div>
@@ -190,7 +190,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block body %}
-    
+
 <nav class=\"navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar\" id=\"head_bg\">
     <div class=\"container\"><a class=\"navbar-brand logo\" href=\"#\" id=\"navbar-title-slp\">SUR LA PEAU&nbsp;</a><button class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#navcol-1\"><span class=\"sr-only\">Toggle navigation</span><span class=\"navbar-toggler-icon\"></span></button>
         <div
@@ -262,9 +262,9 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
                 <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery.html\"><p>Quelques photogrammes du film</p></a></div>
             <div class=\"carousel slide\" data-ride=\"carousel\" id=\"carousel-1\">
                 <div class=\"carousel-inner\" role=\"listbox\">
-                    <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>
-                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__54345.jpeg\" alt=\"Slide Image\"></div>
-                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"assets/img/gallery/SURLAPEAU2017__16576.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__54345.jpeg\" alt=\"Slide Image\"></div>
+                    <div class=\"carousel-item\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__16576.jpeg\" alt=\"Slide Image\"></div>
                 </div>
                 <div><a class=\"carousel-control-prev\" href=\"#carousel-1\" role=\"button\" data-slide=\"prev\"><span class=\"carousel-control-prev-icon\"></span><span class=\"sr-only\">Previous</span></a><a class=\"carousel-control-next\" href=\"#carousel-1\" role=\"button\"
                                                                                                                                                                                                      data-slide=\"next\"><span class=\"carousel-control-next-icon\"></span><span class=\"sr-only\">Next</span></a></div>
