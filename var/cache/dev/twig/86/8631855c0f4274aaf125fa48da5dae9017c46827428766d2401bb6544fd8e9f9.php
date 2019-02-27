@@ -155,7 +155,7 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                         <div class=\"col-sm-3\">
                             <h5>Admin</h5>
                             <ul>
-                                <li><a href=\"login.html\">Login</a></li>
+                                <li><a href=\"login\">Login</a></li>
                             </ul>
                         </div>
                         <div class=\"col-sm-3\">
@@ -164,14 +164,14 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                                 <li><a href=\"https://www.karmaprodworks.com/\" target=\"blank\">Karma Prodworks</a></li>
                                 <li><a href=\"http://www.hevadis.com/\" target=\"blank\">Hevadis Distribution</a></li>
                                 <li><a href=\"http://globalgenesisgroup.com/\" target=\"blank\">Global Genesis Group</a></li>
-                                <li><a href=\"contact.html\">Contact</a></li>
+                                <li><a href=\"contact\">Contact</a></li>
                             </ul>
                         </div>
                         <div class=\"col-sm-3\"></div>
                         <div class=\"col-sm-3\">
                             <h5>Mentions Légales</h5>
                             <ul>
-                                <li><a href=\"mentions.html\">Mentions</a></li>
+                                <li><a href=\"mentions\">Mentions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                         <div class=\"col-sm-3\">
                             <h5>Admin</h5>
                             <ul>
-                                <li><a href=\"login.html\">Login</a></li>
+                                <li><a href=\"login\">Login</a></li>
                             </ul>
                         </div>
                         <div class=\"col-sm-3\">
@@ -268,14 +268,14 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                                 <li><a href=\"https://www.karmaprodworks.com/\" target=\"blank\">Karma Prodworks</a></li>
                                 <li><a href=\"http://www.hevadis.com/\" target=\"blank\">Hevadis Distribution</a></li>
                                 <li><a href=\"http://globalgenesisgroup.com/\" target=\"blank\">Global Genesis Group</a></li>
-                                <li><a href=\"contact.html\">Contact</a></li>
+                                <li><a href=\"contact\">Contact</a></li>
                             </ul>
                         </div>
                         <div class=\"col-sm-3\"></div>
                         <div class=\"col-sm-3\">
                             <h5>Mentions Légales</h5>
                             <ul>
-                                <li><a href=\"mentions.html\">Mentions</a></li>
+                                <li><a href=\"mentions\">Mentions</a></li>
                             </ul>
                         </div>
                     </div>
