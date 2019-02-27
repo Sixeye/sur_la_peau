@@ -119,7 +119,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
     <section id=\"home-slider\" class=\"clean-block slider dark\">
         <div class=\"container\">
             <div class=\"block-heading\">
-                <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery.html\"><p>Quelques photogrammes du film</p></a></div>
+                <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery\"><p>Quelques photogrammes du film</p></a></div>
             <div class=\"carousel slide\" data-ride=\"carousel\" id=\"carousel-1\">
                 <div class=\"carousel-inner\" role=\"listbox\">
                     <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>
@@ -259,7 +259,7 @@ class __TwigTemplate_e11428a1776950ecda78e62fa3eb3e4552286573c774696d60af1054ec7
     <section id=\"home-slider\" class=\"clean-block slider dark\">
         <div class=\"container\">
             <div class=\"block-heading\">
-                <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery.html\"><p>Quelques photogrammes du film</p></a></div>
+                <h2 class=\"text-info\">Consultez notre gallerie</h2><a href=\"gallery\"><p>Quelques photogrammes du film</p></a></div>
             <div class=\"carousel slide\" data-ride=\"carousel\" id=\"carousel-1\">
                 <div class=\"carousel-inner\" role=\"listbox\">
                     <div class=\"carousel-item active\"><img class=\"w-100 d-block\" src=\"img/gallery/SURLAPEAU2017__10569.jpeg\" alt=\"Slide Image\"></div>

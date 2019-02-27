@@ -56,15 +56,15 @@ class __TwigTemplate_e22f2d4203302a1f4f25980a03b0ee03ff8c3d4d581fe4cd2f79bed633e
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.html\">ACCUEIL</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese.html\">GENESE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors.html\">LES COMEDIENS</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario.html\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery.html\">GallerIE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits.html\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage.html\">LIEUX DE TOURNAGE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list.html\">ACTUALITES</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post.html\">BLOG</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post\">BLOG</a></li>
                 </ul>
             </div>
         </div>
@@ -77,8 +77,9 @@ class __TwigTemplate_e22f2d4203302a1f4f25980a03b0ee03ff8c3d4d581fe4cd2f79bed633e
                         <h4>Projection</h4>
                         <div class=\"post-info\"><span>Par Camille Jouhair</span><span>21.05.2019</span></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae
-                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\"
-                                                                                                                                                                                                                      alt=\"A generic square placeholder image with rounded corners in a figure.\"></div>
+                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\" alt=\"A generic square placeholder image with rounded corners in a figure.\">
+                    </div>
                 </div>
             </div>
         </section>
@@ -119,15 +120,15 @@ class __TwigTemplate_e22f2d4203302a1f4f25980a03b0ee03ff8c3d4d581fe4cd2f79bed633e
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.html\">ACCUEIL</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese.html\">GENESE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors.html\">LES COMEDIENS</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario.html\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery.html\">GallerIE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits.html\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage.html\">LIEUX DE TOURNAGE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list.html\">ACTUALITES</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post.html\">BLOG</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post\">BLOG</a></li>
                 </ul>
             </div>
         </div>
@@ -140,8 +141,9 @@ class __TwigTemplate_e22f2d4203302a1f4f25980a03b0ee03ff8c3d4d581fe4cd2f79bed633e
                         <h4>Projection</h4>
                         <div class=\"post-info\"><span>Par Camille Jouhair</span><span>21.05.2019</span></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae
-                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\"
-                                                                                                                                                                                                                      alt=\"A generic square placeholder image with rounded corners in a figure.\"></div>
+                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\" alt=\"A generic square placeholder image with rounded corners in a figure.\">
+                    </div>
                 </div>
             </div>
         </section>

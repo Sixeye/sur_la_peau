@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="head_bg">
+        <div class="container"><a class="navbar-brand logo" href="#" id="navbar-title-slp">SUR LA PEAU&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">ACCUEIL</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="genese">GENESE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="actors">LES COMEDIENS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="scenario">EXTRAITS DU SCENARIO</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery">GALLERIE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="extraits">EXTRAITS DU FILM</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="tournage">LIEUX DE TOURNAGE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list">ACTUALITES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post">BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">MASSIMO BELLINI</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="/img/actors/M_AFFICHE_SLP.jpg">
+                                <div class="card-body info">
+                                    <h4 class="card-title">Massimo Bellini</h4>
+                                    <p class="card-text"></p>
+                                    <div class="icons"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><br><br><br>Massimo Bellini est animateur à Radio France. Vous aurez l'occasion de le découvrir parfois sur les planches.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

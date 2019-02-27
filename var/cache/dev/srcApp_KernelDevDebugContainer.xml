@@ -388,10 +388,22 @@
     <service id="App\Controller\ActorsController" class="App\Controller\ActorsController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
+    <service id="App\Controller\AlexMartinController" class="App\Controller\AlexMartinController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\AntoinebController" class="App\Controller\AntoinebController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
     <service id="App\Controller\BlogPostController" class="App\Controller\BlogPostController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\ChristianmController" class="App\Controller\ChristianmController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\EdgarsController" class="App\Controller\EdgarsController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" public="true" autowire="true" autoconfigure="true">
@@ -404,6 +416,18 @@
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\HomeController" class="App\Controller\HomeController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\JmcController" class="App\Controller\JmcController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\JmgController" class="App\Controller\JmgController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\MassimobController" class="App\Controller\MassimobController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
+    <service id="App\Controller\MelaniePeyreController" class="App\Controller\MelaniePeyreController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
     <service id="App\Controller\ScenarioController" class="App\Controller\ScenarioController" public="true" autowire="true" autoconfigure="true">
@@ -4268,10 +4292,18 @@
     </service>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ActorsController" class="App\Controller\ActorsController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ActorsController" class="App\Controller\ActorsController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\AlexMartinController" class="App\Controller\AlexMartinController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\AlexMartinController" class="App\Controller\AlexMartinController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\AntoinebController" class="App\Controller\AntoinebController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\AntoinebController" class="App\Controller\AntoinebController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\BlogPostController" class="App\Controller\BlogPostController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\BlogPostController" class="App\Controller\BlogPostController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\BlogPostListController" class="App\Controller\BlogPostListController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ChristianmController" class="App\Controller\ChristianmController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\ChristianmController" class="App\Controller\ChristianmController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\EdgarsController" class="App\Controller\EdgarsController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\EdgarsController" class="App\Controller\EdgarsController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ExtraitsController" class="App\Controller\ExtraitsController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\GalleryController" class="App\Controller\GalleryController" autowire="true" abstract="true"/>
@@ -4280,6 +4312,14 @@
     <service id=".abstract.instanceof.App\Controller\GeneseController" class="App\Controller\GeneseController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\JmcController" class="App\Controller\JmcController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\JmcController" class="App\Controller\JmcController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\JmgController" class="App\Controller\JmgController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\JmgController" class="App\Controller\JmgController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\MassimobController" class="App\Controller\MassimobController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\MassimobController" class="App\Controller\MassimobController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\MelaniePeyreController" class="App\Controller\MelaniePeyreController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\MelaniePeyreController" class="App\Controller\MelaniePeyreController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\ScenarioController" class="App\Controller\ScenarioController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ScenarioController" class="App\Controller\ScenarioController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.App\Controller\TournageController" class="App\Controller\TournageController" autowire="true" abstract="true"/>

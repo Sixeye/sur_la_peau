@@ -79,54 +79,54 @@ class __TwigTemplate_2e8fb73cd2668a8177bc77bc1f0893d70944b994fdd23396ad9819a4707
                     <div class=\"row no-gutters\">
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"melaniepeyre.html\"><img src=\"/img/actors/s_melanie_peyre.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div><a href=\"melaniepeyre.html\">MELANIE PEYRE</a></div>
+                                <div class=\"image\"><a href=\"melaniepeyre\"><img src=\"/img/actors/s_melanie_peyre.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div><a href=\"melaniepeyre\">MELANIE PEYRE</a></div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"zbds.html\"><img src=\"/img/actors/s_zoe_bds.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"zbds.html\">Zoé Besmond De Senneville</a></div>
+                                <div class=\"image\"><a href=\"zbds\"><img src=\"/img/actors/s_zoe_bds.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"zbds\">Zoé Besmond De Senneville</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"jmg.html\"><img src=\"/img/actors/s_jean_marie_godet.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"jmg.html\">Jean-Marie Godet</a></div>
+                                <div class=\"image\"><a href=\"jmg\"><img src=\"/img/actors/s_jean_marie_godet.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"jmg\">Jean-Marie Godet</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"edgars.html\"><img class=\"img-fluid d-block mx-auto\" src=\"/img/actors/s_edgar_sekloka.jpg\" /></a></div>
-                                <div class=\"product-name\"><a href=\"edgars.html\">Edgar Sekloka</a></div>
+                                <div class=\"image\"><a href=\"edgars\"><img class=\"img-fluid d-block mx-auto\" src=\"/img/actors/s_edgar_sekloka.jpg\" /></a></div>
+                                <div class=\"product-name\"><a href=\"edgars\">Edgar Sekloka</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"massimob.html\"><img src=\"/img/actors/S_AFFICHE_SLP.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"massimob.html\">Massimo Bellini</a></div>
+                                <div class=\"image\"><a href=\"massimob\"><img src=\"/img/actors/S_AFFICHE_SLP.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"massimob\">Massimo Bellini</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"christianm.html\"><img src=\"/img/actors/s_christian_mupondo.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"christianm.html\">Christian Mupondo</a></div>
+                                <div class=\"image\"><a href=\"christianm\"><img src=\"/img/actors/s_christian_mupondo.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"christianm\">Christian Mupondo</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"jmc.html\"><img src=\"/img/actors/s_jean_michel_correia.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"jmc.html\">Jean-Michel Correia</a></div>
+                                <div class=\"image\"><a href=\"jmc\"><img src=\"/img/actors/s_jean_michel_correia.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"jmc\">Jean-Michel Correia</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"alexmartin.html\"><img src=\"/img/actors/s_alex_martin.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"alexmartin.html\">Alex Martin</a></div>
+                                <div class=\"image\"><a href=\"alexmartin\"><img src=\"/img/actors/s_alex_martin.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"alexmartin\">Alex Martin</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"antoineb.html\"><img src=\"/img/actors/s_antoine_basler.jpg\" class=\"img-fluid d-block mx-auto\" /></a><a href=\"#\"></a></div>
-                                <div class=\"product-name\"><a href=\"antoineb.html\">Antoine Basler</a></div>
+                                <div class=\"image\"><a href=\"antoineb\"><img src=\"/img/actors/s_antoine_basler.jpg\" class=\"img-fluid d-block mx-auto\" /></a><a href=\"#\"></a></div>
+                                <div class=\"product-name\"><a href=\"antoineb\">Antoine Basler</a></div>
                             </div>
                         </div>
                     </div>
@@ -193,54 +193,54 @@ class __TwigTemplate_2e8fb73cd2668a8177bc77bc1f0893d70944b994fdd23396ad9819a4707
                     <div class=\"row no-gutters\">
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"melaniepeyre.html\"><img src=\"/img/actors/s_melanie_peyre.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div><a href=\"melaniepeyre.html\">MELANIE PEYRE</a></div>
+                                <div class=\"image\"><a href=\"melaniepeyre\"><img src=\"/img/actors/s_melanie_peyre.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div><a href=\"melaniepeyre\">MELANIE PEYRE</a></div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"zbds.html\"><img src=\"/img/actors/s_zoe_bds.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"zbds.html\">Zoé Besmond De Senneville</a></div>
+                                <div class=\"image\"><a href=\"zbds\"><img src=\"/img/actors/s_zoe_bds.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"zbds\">Zoé Besmond De Senneville</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"jmg.html\"><img src=\"/img/actors/s_jean_marie_godet.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"jmg.html\">Jean-Marie Godet</a></div>
+                                <div class=\"image\"><a href=\"jmg\"><img src=\"/img/actors/s_jean_marie_godet.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"jmg\">Jean-Marie Godet</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"edgars.html\"><img class=\"img-fluid d-block mx-auto\" src=\"/img/actors/s_edgar_sekloka.jpg\" /></a></div>
-                                <div class=\"product-name\"><a href=\"edgars.html\">Edgar Sekloka</a></div>
+                                <div class=\"image\"><a href=\"edgars\"><img class=\"img-fluid d-block mx-auto\" src=\"/img/actors/s_edgar_sekloka.jpg\" /></a></div>
+                                <div class=\"product-name\"><a href=\"edgars\">Edgar Sekloka</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"massimob.html\"><img src=\"/img/actors/S_AFFICHE_SLP.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"massimob.html\">Massimo Bellini</a></div>
+                                <div class=\"image\"><a href=\"massimob\"><img src=\"/img/actors/S_AFFICHE_SLP.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"massimob\">Massimo Bellini</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"christianm.html\"><img src=\"/img/actors/s_christian_mupondo.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"christianm.html\">Christian Mupondo</a></div>
+                                <div class=\"image\"><a href=\"christianm\"><img src=\"/img/actors/s_christian_mupondo.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"christianm\">Christian Mupondo</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"jmc.html\"><img src=\"/img/actors/s_jean_michel_correia.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"jmc.html\">Jean-Michel Correia</a></div>
+                                <div class=\"image\"><a href=\"jmc\"><img src=\"/img/actors/s_jean_michel_correia.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"jmc\">Jean-Michel Correia</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"alexmartin.html\"><img src=\"/img/actors/s_alex_martin.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
-                                <div class=\"product-name\"><a href=\"alexmartin.html\">Alex Martin</a></div>
+                                <div class=\"image\"><a href=\"alexmartin\"><img src=\"/img/actors/s_alex_martin.jpg\" class=\"img-fluid d-block mx-auto\" /></a></div>
+                                <div class=\"product-name\"><a href=\"alexmartin\">Alex Martin</a></div>
                             </div>
                         </div>
                         <div class=\"col-12 col-md-6 col-lg-4\">
                             <div class=\"clean-product-item\">
-                                <div class=\"image\"><a href=\"antoineb.html\"><img src=\"/img/actors/s_antoine_basler.jpg\" class=\"img-fluid d-block mx-auto\" /></a><a href=\"#\"></a></div>
-                                <div class=\"product-name\"><a href=\"antoineb.html\">Antoine Basler</a></div>
+                                <div class=\"image\"><a href=\"antoineb\"><img src=\"/img/actors/s_antoine_basler.jpg\" class=\"img-fluid d-block mx-auto\" /></a><a href=\"#\"></a></div>
+                                <div class=\"product-name\"><a href=\"antoineb\">Antoine Basler</a></div>
                             </div>
                         </div>
                     </div>
