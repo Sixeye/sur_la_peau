@@ -37,6 +37,7 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/scenario' => [[['_route' => 'scenario', '_controller' => 'App\\Controller\\ScenarioController::scenario'], null, null, null, false, false, null]],
             '/tournage' => [[['_route' => 'tournage', '_controller' => 'App\\Controller\\TournageController::scenario'], null, null, null, false, false, null]],
             '/zbds' => [[['_route' => 'zbds', '_controller' => 'App\\Controller\\ZbdsController::zbds'], null, null, null, false, false, null]],
+            '/admin' => [[['_route' => 'easyadmin', '_controller' => 'EasyCorp\\Bundle\\EasyAdminBundle\\Controller\\EasyAdminController::indexAction'], null, null, null, true, false, null]],
             '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],
             '/_profiler/search' => [[['_route' => '_profiler_search', '_controller' => 'web_profiler.controller.profiler::searchAction'], null, null, null, false, false, null]],
             '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],
