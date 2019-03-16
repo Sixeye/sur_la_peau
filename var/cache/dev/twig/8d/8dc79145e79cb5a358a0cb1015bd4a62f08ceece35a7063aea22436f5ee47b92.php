@@ -55,15 +55,14 @@ class __TwigTemplate_9852e453d15bf10657b746f4cf3d1d5354beb718410173e9cbdd244484a
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"actors\">LES COMEDIENS</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/home\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/genese\">GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"/actors\">LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/scenario\">EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/gallery\">GALLERIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/extraits\">EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/blog-post-list\">ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/blog-post\">BLOG</a></li>
                 </ul>
             </div>
         </div>
@@ -169,15 +168,14 @@ class __TwigTemplate_9852e453d15bf10657b746f4cf3d1d5354beb718410173e9cbdd244484a
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"actors\">LES COMEDIENS</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/home\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/genese\">GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"/actors\">LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/scenario\">EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/gallery\">GALLERIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/extraits\">EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/blog-post-list\">ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"/blog-post\">BLOG</a></li>
                 </ul>
             </div>
         </div>

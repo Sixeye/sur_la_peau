@@ -63,7 +63,6 @@ class __TwigTemplate_9577f3e5259e7e872349be52f0c9d7aaa9c1ddbeb7466ab31cf6aed5294
                             DU SCENARIO</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
                 </ul>
@@ -137,7 +136,6 @@ class __TwigTemplate_9577f3e5259e7e872349be52f0c9d7aaa9c1ddbeb7466ab31cf6aed5294
                             DU SCENARIO</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
                 </ul>

@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class MassimobController extends Controller
+class MassimobController extends AbstractController
 {
     /**
      *@Route("/massimob", name="massimob")
+     *@return Response
      */
     public function massimob()
     {

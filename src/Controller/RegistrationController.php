@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class RegistrationController extends Controller
+class RegistrationController extends AbstractController
 {
     /**
      *@Route("/registration", name="registration")
+     *@return Response
      */
     public function registration()
     {

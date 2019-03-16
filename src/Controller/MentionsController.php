@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class MentionsController extends Controller
+class MentionsController extends AbstractController
 {
     /**
      *@Route("/mentions", name="mentions")
+     *@return Response
      */
     public function mentions()
     {

@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class LoginController extends Controller
+class LoginController extends AbstractController
 {
     /**
      *@Route("/login", name="login")
+     *@return Response
      */
     public function login()
     {

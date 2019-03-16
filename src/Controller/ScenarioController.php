@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ScenarioController extends Controller
+class ScenarioController extends AbstractController
 {
     /**
      *@Route("/scenario", name="scenario")
+     *@return Response
      */
     public function scenario()
     {

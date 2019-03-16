@@ -15,6 +15,11 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
     {
         $this->context = $context;
         $this->staticRoutes = [
+            '/' => [
+                [['_route' => 'app_actors_actors', '_controller' => 'App\\Controller\\ActorsController::actors'], null, null, null, false, false, null],
+                [['_route' => 'app_blogpost_blogpost', '_controller' => 'App\\Controller\\BlogPostController::blogpost'], null, null, null, false, false, null],
+                [['_route' => 'app_blogpostlist_blogpostlist', '_controller' => 'App\\Controller\\BlogPostListController::blogpostlist'], null, null, null, false, false, null],
+            ],
             '/actors' => [[['_route' => 'actors', '_controller' => 'App\\Controller\\ActorsController::actors'], null, null, null, false, false, null]],
             '/alexmartin' => [[['_route' => 'alexmartin', '_controller' => 'App\\Controller\\AlexMartinController::alexmartin'], null, null, null, false, false, null]],
             '/antoineb' => [[['_route' => 'antoineb', '_controller' => 'App\\Controller\\AntoinebController::antoineb'], null, null, null, false, false, null]],
@@ -26,7 +31,6 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/extraits' => [[['_route' => 'extraits', '_controller' => 'App\\Controller\\ExtraitsController::extraits'], null, null, null, false, false, null]],
             '/gallery' => [[['_route' => 'gallery', '_controller' => 'App\\Controller\\GalleryController::gallery'], null, null, null, false, false, null]],
             '/genese' => [[['_route' => 'genese', '_controller' => 'App\\Controller\\GeneseController::genese'], null, null, null, false, false, null]],
-            '/' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::home'], null, null, null, false, false, null]],
             '/jmc' => [[['_route' => 'jmc', '_controller' => 'App\\Controller\\JmcController::jmc'], null, null, null, false, false, null]],
             '/jmg' => [[['_route' => 'jmg', '_controller' => 'App\\Controller\\JmgController::jmg'], null, null, null, false, false, null]],
             '/login' => [[['_route' => 'login', '_controller' => 'App\\Controller\\LoginController::login'], null, null, null, false, false, null]],
@@ -35,7 +39,6 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/mentions' => [[['_route' => 'mentions', '_controller' => 'App\\Controller\\MentionsController::mentions'], null, null, null, false, false, null]],
             '/registration' => [[['_route' => 'registration', '_controller' => 'App\\Controller\\RegistrationController::registration'], null, null, null, false, false, null]],
             '/scenario' => [[['_route' => 'scenario', '_controller' => 'App\\Controller\\ScenarioController::scenario'], null, null, null, false, false, null]],
-            '/tournage' => [[['_route' => 'tournage', '_controller' => 'App\\Controller\\TournageController::scenario'], null, null, null, false, false, null]],
             '/zbds' => [[['_route' => 'zbds', '_controller' => 'App\\Controller\\ZbdsController::zbds'], null, null, null, false, false, null]],
             '/admin' => [[['_route' => 'easyadmin', '_controller' => 'EasyCorp\\Bundle\\EasyAdminBundle\\Controller\\EasyAdminController::indexAction'], null, null, null, true, false, null]],
             '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],

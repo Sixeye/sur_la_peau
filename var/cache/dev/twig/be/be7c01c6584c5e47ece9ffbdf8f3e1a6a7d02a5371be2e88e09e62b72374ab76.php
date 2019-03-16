@@ -56,13 +56,12 @@ class __TwigTemplate_590859b743823aea7a3f5e13a080b301a00800f138e20626bd7b0cb5a15
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post\">BLOG</a></li>
                 </ul>
@@ -73,14 +72,37 @@ class __TwigTemplate_590859b743823aea7a3f5e13a080b301a00800f138e20626bd7b0cb5a15
         <section class=\"clean-block clean-post dark\"><div class=\"block-heading\"><h2 class=\"text-info\">BLOG</h2></div>
             <div class=\"container\">
                 <div class=\"block-content\"><div class=\"post-image\" style=\"background-image:url('/img/gallery/SURLAPEAU2017__64511BG.jpg');\"></div>
-                    <div id=\"article-body\" class=\"post-body\">
-                        <h4>Projection</h4>
-                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>21.05.2019</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae
-                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\" alt=\"A generic square placeholder image with rounded corners in a figure.\">
+                    ";
+        // line 26
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new Twig_Error_Runtime('Variable "article" does not exist.', 26, $this->source); })()));
+        foreach ($context['_seq'] as $context["_key"] => $context["articles"]) {
+            // line 27
+            echo "                    <div id=\"article-body\" class=\"post-body\">
+                        <h4>";
+            // line 28
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "title", []), "html", null, true);
+            echo "</h4>
+                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>";
+            // line 29
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "createdAt", []), "d/m/y"), "html", null, true);
+            echo "</span></div>
+                        <p>";
+            // line 30
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "content", []), "html", null, true);
+            echo "</p>
+                        <img class=\"rounded img-fluid\" src=";
+            // line 31
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "image", []), "html", null, true);
+            echo " alt=\"Une image concernant le film SUR LA PEAU, avec bords arrondis\">
                     </div>
-                </div>
+                    ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['articles'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 34
+        echo "                </div>
             </div>
         </section>
     </main>
@@ -106,7 +128,7 @@ class __TwigTemplate_590859b743823aea7a3f5e13a080b301a00800f138e20626bd7b0cb5a15
 
     public function getDebugInfo()
     {
-        return array (  53 => 4,  44 => 3,  15 => 1,);
+        return array (  105 => 34,  96 => 31,  92 => 30,  88 => 29,  84 => 28,  81 => 27,  77 => 26,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -120,13 +142,12 @@ class __TwigTemplate_590859b743823aea7a3f5e13a080b301a00800f138e20626bd7b0cb5a15
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post\">BLOG</a></li>
                 </ul>
@@ -137,13 +158,14 @@ class __TwigTemplate_590859b743823aea7a3f5e13a080b301a00800f138e20626bd7b0cb5a15
         <section class=\"clean-block clean-post dark\"><div class=\"block-heading\"><h2 class=\"text-info\">BLOG</h2></div>
             <div class=\"container\">
                 <div class=\"block-content\"><div class=\"post-image\" style=\"background-image:url('/img/gallery/SURLAPEAU2017__64511BG.jpg');\"></div>
+                    {% for articles in article %}
                     <div id=\"article-body\" class=\"post-body\">
-                        <h4>Projection</h4>
-                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>21.05.2019</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae
-                            leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <img class=\"rounded img-fluid\" src=\"/img/gallery/thumbnail_movie/SURLAPEAU2017__96361_S.jpeg\" alt=\"A generic square placeholder image with rounded corners in a figure.\">
+                        <h4>{{ articles.title }}</h4>
+                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>{{ articles.createdAt | date('d/m/y') }}</span></div>
+                        <p>{{ articles.content }}</p>
+                        <img class=\"rounded img-fluid\" src={{ articles.image }} alt=\"Une image concernant le film SUR LA PEAU, avec bords arrondis\">
                     </div>
+                    {% endfor %}
                 </div>
             </div>
         </section>

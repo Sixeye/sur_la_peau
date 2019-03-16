@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class JmcController extends Controller
+class JmcController extends AbstractController
 {
     /**
      *@Route("/jmc", name="jmc")
+     *@return Response
      */
     public function jmc()
     {

@@ -8,14 +8,15 @@
 
 namespace App\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class ContactController extends Controller
+class ContactController extends AbstractController
 {
     /**
      *@Route("/contact", name="contact")
+     *@return Response
      */
     public function contact()
     {

@@ -8,20 +8,26 @@
 
 namespace App\Controller;
 
+use App\Repository\ArticleRepository;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class BlogPostListController extends Controller
+class BlogPostListController extends AbstractController
 {
+
     /**
-     *@Route("/blog-post-list", name="blog-post-list")
+     * @Route
+     * @Route("/blog-post-list", name="blog-post-list")
+     * @param ArticleRepository $articleRepository
+     * @return Response
      */
-    public function blogpostlist()
+    public function blogpostlist(ArticleRepository $articleRepository)
     {
+        $articles = $articleRepository->twoLastArticles();
         return $this->render(
             'blog-post-list.html.twig',
-            ['title' => "Blog - SUR LA PEAU"]
+            ['title' => "Blog - SUR LA PEAU", 'article'=> $articles]
         );
     }
 

@@ -56,13 +56,12 @@ class __TwigTemplate_f57be5abb84cda84a8402c868fe2b50865ce1d91baeac5492e7c7a4538d
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
                 </ul>
@@ -76,49 +75,42 @@ class __TwigTemplate_f57be5abb84cda84a8402c868fe2b50865ce1d91baeac5492e7c7a4538d
                     <h2 class=\"text-info\">ACTUALITES</h2>
                     <p>Voici des nouvelles de la vie du film, rencontres, débats, projections...<br><br></p>
                 </div>
-                <div id=\"content-blog-list\" class=\"block-content\">
+                ";
+        // line 29
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new Twig_Error_Runtime('Variable "article" does not exist.', 29, $this->source); })()));
+        foreach ($context['_seq'] as $context["_key"] => $context["articles"]) {
+            // line 30
+            echo "                <div id=\"content-blog-list\" class=\"block-content\">
                     <div class=\"clean-blog-post\">
                         <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
+                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"";
+            // line 33
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "image", []), "html", null, true);
+            echo "\"></div>
                             <div class=\"col-lg-7\">
-                                <h3>Projection</h3>
-                                <div class=\"info\"><span class=\"text-muted\">16.02.19 par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Débat</h3>
-                                <div class=\"info\"><span class=\"text-muted\">14.02.19 par&nbsp;<a href=\"#\">Srinath</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Projection</h3>
-                                <div class=\"info\"><span class=\"text-muted\">03.05.19 par &nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Rencontre</h3>
-                                <div class=\"info\"><span class=\"text-muted\">21.05.19 par&nbsp;<a href=\"#\">Mélanie Peyre</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
+                                <h3>";
+            // line 35
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "title", []), "html", null, true);
+            echo "</h3>
+                                <div class=\"info\"><span class=\"text-muted\">";
+            // line 36
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "createdAt", []), "d/m/y"), "html", null, true);
+            echo " par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
+                                <p>";
+            // line 37
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "content", []), "html", null, true);
+            echo "</p></div>
                         </div>
                     </div>
                 </div>
-            </div>
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['articles'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 42
+        echo "            </div>
         </section>
     </main>
 
@@ -143,7 +135,7 @@ class __TwigTemplate_f57be5abb84cda84a8402c868fe2b50865ce1d91baeac5492e7c7a4538d
 
     public function getDebugInfo()
     {
-        return array (  53 => 4,  44 => 3,  15 => 1,);
+        return array (  113 => 42,  102 => 37,  98 => 36,  94 => 35,  89 => 33,  84 => 30,  80 => 29,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -157,13 +149,12 @@ class __TwigTemplate_f57be5abb84cda84a8402c868fe2b50865ce1d91baeac5492e7c7a4538d
             <div
                     class=\"collapse navbar-collapse\" id=\"navcol-1\">
                 <ul class=\"nav navbar-nav ml-auto\">
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"index.php\">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"home\">ACCUEIL</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"genese\">GENESE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"actors\">LES COMEDIENS</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"scenario\">EXTRAITS DU SCENARIO</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GallerIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"gallery\">GALLERIE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"extraits\">EXTRAITS DU FILM</a></li>
-                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"tournage\">LIEUX DE TOURNAGE</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link active\" href=\"blog-post-list\">ACTUALITES</a></li>
                     <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=\"blog-post\">BLOG</a></li>
                 </ul>
@@ -177,48 +168,19 @@ class __TwigTemplate_f57be5abb84cda84a8402c868fe2b50865ce1d91baeac5492e7c7a4538d
                     <h2 class=\"text-info\">ACTUALITES</h2>
                     <p>Voici des nouvelles de la vie du film, rencontres, débats, projections...<br><br></p>
                 </div>
+                {% for articles in article %}
                 <div id=\"content-blog-list\" class=\"block-content\">
                     <div class=\"clean-blog-post\">
                         <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
+                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"{{ articles.image }}\"></div>
                             <div class=\"col-lg-7\">
-                                <h3>Projection</h3>
-                                <div class=\"info\"><span class=\"text-muted\">16.02.19 par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Débat</h3>
-                                <div class=\"info\"><span class=\"text-muted\">14.02.19 par&nbsp;<a href=\"#\">Srinath</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Projection</h3>
-                                <div class=\"info\"><span class=\"text-muted\">03.05.19 par &nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
-                        </div>
-                    </div>
-                    <div class=\"clean-blog-post\">
-                        <div class=\"row\">
-                            <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"/img/actors/M_AFFICHE_SLP.jpg\"></div>
-                            <div class=\"col-lg-7\">
-                                <h3>Rencontre</h3>
-                                <div class=\"info\"><span class=\"text-muted\">21.05.19 par&nbsp;<a href=\"#\">Mélanie Peyre</a></span></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
-                                    vitae leo.</p><button class=\"btn btn-outline btn-light btn-sm\" type=\"button\">Lire</button></div>
+                                <h3>{{ articles.title }}</h3>
+                                <div class=\"info\"><span class=\"text-muted\">{{ articles.createdAt | date('d/m/y') }} par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
+                                <p>{{ articles.content }}</p></div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </section>
     </main>
