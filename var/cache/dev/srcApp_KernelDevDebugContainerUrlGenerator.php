@@ -34,6 +34,7 @@ class srcApp_KernelDevDebugContainerUrlGenerator extends Symfony\Component\Routi
         'extraits' => [[], ['_controller' => 'App\\Controller\\ExtraitsController::extraits'], [], [['text', '/extraits']], [], []],
         'gallery' => [[], ['_controller' => 'App\\Controller\\GalleryController::gallery'], [], [['text', '/gallery']], [], []],
         'genese' => [[], ['_controller' => 'App\\Controller\\GeneseController::genese'], [], [['text', '/genese']], [], []],
+        'home' => [[], ['_controller' => 'App\\Controller\\HomeController::home'], [], [['text', '/home']], [], []],
         'jmc' => [[], ['_controller' => 'App\\Controller\\JmcController::jmc'], [], [['text', '/jmc']], [], []],
         'jmg' => [[], ['_controller' => 'App\\Controller\\JmgController::jmg'], [], [['text', '/jmg']], [], []],
         'login' => [[], ['_controller' => 'App\\Controller\\LoginController::login'], [], [['text', '/login']], [], []],

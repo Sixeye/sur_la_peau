@@ -1,0 +1,222 @@
+<?php
+
+/* alexmartin.html.twig */
+class __TwigTemplate_20e9b3d14f85f3257a415d636d2ef5dde7b64890bc4070dedf6b79d0b6fc307e extends Twig_Template
+{
+    private $source;
+
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        // line 1
+        $this->parent = $this->loadTemplate("base.html.twig", "alexmartin.html.twig", 1);
+        $this->blocks = [
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "base.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "alexmartin.html.twig"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "alexmartin.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+    }
+
+    // line 3
+    public function block_body($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        // line 4
+        echo "
+    <nav class=\"navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar\" id=\"head_bg\">
+        <div class=\"container\"><a class=\"navbar-brand logo\" href=\"#\" id=\"navbar-title-slp\">SUR LA PEAU&nbsp;</a><button class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#navcol-1\"><span class=\"sr-only\">Toggle navigation</span><span class=\"navbar-toggler-icon\"></span></button>
+            <div
+                    class=\"collapse navbar-collapse\" id=\"navcol-1\">
+                <ul class=\"nav navbar-nav ml-auto\">
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 10
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
+        echo ">ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 11
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("genese");
+        echo ">GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 12
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("actors");
+        echo ">LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 13
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("scenario");
+        echo ">EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 14
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("gallery");
+        echo ">GALLERIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 15
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("extraits");
+        echo ">EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 16
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("blog-post-list");
+        echo ">ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href=";
+        // line 17
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("blog-post");
+        echo ">BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class=\"page\">
+        <section class=\"clean-block about-us\">
+            <div class=\"container\">
+                <div class=\"block-heading\">
+                    <h2 class=\"text-info\">ALEX MARTIN</h2>
+                    <div class=\"row justify-content-center\">
+                        <div class=\"col-sm-6 col-lg-4\">
+                            <div class=\"card clean-card text-center\"><img class=\"card-img-top w-100 d-block\" src=\"/img/actors/alex_martin.jpg\">
+                                <div class=\"card-body info\">
+                                    <h4 class=\"card-title\">Alex Martin</h4><p class=\"card-text\">Agent <a href=\"http://agence-playtime.fr/\" target=\"blank\">Agence Playtime</a></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><br><br><br>Alex Martin est né à Thiers en&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Auvergne\">Auvergne</a>&nbsp;d’un père martiniquais et d’une mère auvergnate. Il grandit près de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Clermont-Ferrand\">Clermont-Ferrand</a>.
+                        Enfant, il est initié par son père aux arts martiaux vietnamiens, professeur de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Vovinam_Viet_Vo_Dao\">Viet Vo Dao</a>&nbsp;(Than Long Truong Son Phaï). Après avoir obtenu son bac Littéraire,
+                        il entre à l’Université UFR STAPS (Unité de Formation de Recherche en&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Sciences_et_techniques_des_activit%C3%A9s_physiques_et_sportives\">Sciences et techniques des activités physiques et sportives</a>)
+                        de Clermont-Ferrand. A l'âge17 ans, en parallèle de ses études, il s'ouvre à la pratique de disciplines variées&nbsp;: la danse, le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Parkour\">Parkour</a>&nbsp;et l'acrobatie<a href=\"https://fr.wikipedia.org/wiki/Alex_Martin#cite_note-1\">1</a>.Suite
+                        a un casting, il est remarqué par la directrice de l'<a href=\"https://fr.wikipedia.org/wiki/Acting_International\">Acting International</a>, ce qui l'amène à se produire comme danseur-interprète, pendant trois ans, dans deux comédies
+                        musicales à succès&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Autant_en_emporte_le_vent_(com%C3%A9die_musicale)\"><em>Autant en emporte le vent</em></a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Les_Dix_Commandements_(com%C3%A9die_musicale)\"><em>Les Dix Commandements</em></a>.A
+                        la fin de son contrat il prend des cours de coaching et décide de se consacrer au métier d’acteur. La série&nbsp;<em>Galactik Football</em>&nbsp;(2006/2008) le forme à la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Capture_de_mouvement\">motion capture</a>.
+                        Parallèlement, à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Bollywood\">Bollywood</a>, il performe dans une dizaine de films indiens entre 2006 et 2010. Il fait ses premiers pas de comédien en France, dans Banlieue&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Banlieue_13_:_Ultimatum\"><em>Banlieue 13 : Ultimatum</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Patrick_Alessandrin\">Patrick Alessandrin</a><a href=\"https://fr.wikipedia.org/wiki/Alex_Martin#cite_note-2\">2</a>.En 2012 et 2013, Alex Martin est à l'affiche de trois films français&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/De_rouille_et_d%27os\"><em>De rouille et d'os</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Jacques_Audiard\">Jacques Audiard</a>&nbsp;avec&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Marion_Cotillard\">Marion Cotillard</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Matthias_Schoenaerts\">Matthias Schoenaerts</a>,&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Le_Guetteur_(film)\"><em>Le Guetteur</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Michele_Placido\">Michele Placido</a>&nbsp;avec&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Daniel_Auteuil\">Daniel Auteuil</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Matthieu_Kassovitz\">Matthieu Kassovitz</a>, et&nbsp;<em>Jeu de couples</em>&nbsp;de
+                        Maxwell A. Cavevall où il joue un rôle important. Il est également au générique de deux films américains&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Battle_of_the_Year_(film)\"><em>Battle of the Year</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/w/index.php?title=Benson_Lee&amp;action=edit&amp;redlink=1\">Benson Lee</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Fast_and_Furious_6\"><em>Fast and Furious 6</em></a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Justin_Lin\">Justin Lin</a>.En 2013 Alex tient
+                        le rôle de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/L%C3%A9on-Gontran_Damas\">Léon-Gontran Damas</a>&nbsp;dans le téléfilm&nbsp;<em>Césaire, le prix de la liberté</em>&nbsp;de Félix Olivier. En 2015 le réalisateur
+                        italien Francesco Cinquemani, lui offre le rôle de Fly, face à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Alec_Baldwin\">Alec Baldwin</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Danny_Glover\">Danny Glover</a>&nbsp;<em>Andròn: The Black Labyrinth</em>.En
+                        2016, l’équipe de cascadeurs, dont il fait partie, reçoit une nomination aux&nbsp;<a href=\"https://fr.wikipedia.org/wiki/23e_c%C3%A9r%C3%A9monie_des_Screen_Actors_Guild_Awards\">Screen Actor guild Awards</a>&nbsp;pour
+                        leurs performances dans le film&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Jason_Bourne_(film)\"><em>Jason Bourne</em></a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Paul_Greengrass\">Paul Greengrass</a>.<br></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "alexmartin.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <nav class=\"navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar\" id=\"head_bg\">
+        <div class=\"container\"><a class=\"navbar-brand logo\" href=\"#\" id=\"navbar-title-slp\">SUR LA PEAU&nbsp;</a><button class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#navcol-1\"><span class=\"sr-only\">Toggle navigation</span><span class=\"navbar-toggler-icon\"></span></button>
+            <div
+                    class=\"collapse navbar-collapse\" id=\"navcol-1\">
+                <ul class=\"nav navbar-nav ml-auto\">
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('home') }}>ACCUEIL</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('genese') }}>GENESE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('actors') }}>LES COMEDIENS</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('scenario') }}>EXTRAITS DU SCENARIO</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('gallery') }}>GALLERIE</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('extraits') }}>EXTRAITS DU FILM</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('blog-post-list') }}>ACTUALITES</a></li>
+                    <li class=\"nav-item\" role=\"presentation\"><a class=\"nav-link\" href={{ path('blog-post') }}>BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class=\"page\">
+        <section class=\"clean-block about-us\">
+            <div class=\"container\">
+                <div class=\"block-heading\">
+                    <h2 class=\"text-info\">ALEX MARTIN</h2>
+                    <div class=\"row justify-content-center\">
+                        <div class=\"col-sm-6 col-lg-4\">
+                            <div class=\"card clean-card text-center\"><img class=\"card-img-top w-100 d-block\" src=\"/img/actors/alex_martin.jpg\">
+                                <div class=\"card-body info\">
+                                    <h4 class=\"card-title\">Alex Martin</h4><p class=\"card-text\">Agent <a href=\"http://agence-playtime.fr/\" target=\"blank\">Agence Playtime</a></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><br><br><br>Alex Martin est né à Thiers en&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Auvergne\">Auvergne</a>&nbsp;d’un père martiniquais et d’une mère auvergnate. Il grandit près de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Clermont-Ferrand\">Clermont-Ferrand</a>.
+                        Enfant, il est initié par son père aux arts martiaux vietnamiens, professeur de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Vovinam_Viet_Vo_Dao\">Viet Vo Dao</a>&nbsp;(Than Long Truong Son Phaï). Après avoir obtenu son bac Littéraire,
+                        il entre à l’Université UFR STAPS (Unité de Formation de Recherche en&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Sciences_et_techniques_des_activit%C3%A9s_physiques_et_sportives\">Sciences et techniques des activités physiques et sportives</a>)
+                        de Clermont-Ferrand. A l'âge17 ans, en parallèle de ses études, il s'ouvre à la pratique de disciplines variées&nbsp;: la danse, le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Parkour\">Parkour</a>&nbsp;et l'acrobatie<a href=\"https://fr.wikipedia.org/wiki/Alex_Martin#cite_note-1\">1</a>.Suite
+                        a un casting, il est remarqué par la directrice de l'<a href=\"https://fr.wikipedia.org/wiki/Acting_International\">Acting International</a>, ce qui l'amène à se produire comme danseur-interprète, pendant trois ans, dans deux comédies
+                        musicales à succès&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Autant_en_emporte_le_vent_(com%C3%A9die_musicale)\"><em>Autant en emporte le vent</em></a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Les_Dix_Commandements_(com%C3%A9die_musicale)\"><em>Les Dix Commandements</em></a>.A
+                        la fin de son contrat il prend des cours de coaching et décide de se consacrer au métier d’acteur. La série&nbsp;<em>Galactik Football</em>&nbsp;(2006/2008) le forme à la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Capture_de_mouvement\">motion capture</a>.
+                        Parallèlement, à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Bollywood\">Bollywood</a>, il performe dans une dizaine de films indiens entre 2006 et 2010. Il fait ses premiers pas de comédien en France, dans Banlieue&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Banlieue_13_:_Ultimatum\"><em>Banlieue 13 : Ultimatum</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Patrick_Alessandrin\">Patrick Alessandrin</a><a href=\"https://fr.wikipedia.org/wiki/Alex_Martin#cite_note-2\">2</a>.En 2012 et 2013, Alex Martin est à l'affiche de trois films français&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/De_rouille_et_d%27os\"><em>De rouille et d'os</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Jacques_Audiard\">Jacques Audiard</a>&nbsp;avec&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Marion_Cotillard\">Marion Cotillard</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Matthias_Schoenaerts\">Matthias Schoenaerts</a>,&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Le_Guetteur_(film)\"><em>Le Guetteur</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/wiki/Michele_Placido\">Michele Placido</a>&nbsp;avec&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Daniel_Auteuil\">Daniel Auteuil</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Matthieu_Kassovitz\">Matthieu Kassovitz</a>, et&nbsp;<em>Jeu de couples</em>&nbsp;de
+                        Maxwell A. Cavevall où il joue un rôle important. Il est également au générique de deux films américains&nbsp;:&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Battle_of_the_Year_(film)\"><em>Battle of the Year</em></a>&nbsp;de&nbsp;
+                        <a
+                                href=\"https://fr.wikipedia.org/w/index.php?title=Benson_Lee&amp;action=edit&amp;redlink=1\">Benson Lee</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Fast_and_Furious_6\"><em>Fast and Furious 6</em></a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Justin_Lin\">Justin Lin</a>.En 2013 Alex tient
+                        le rôle de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/L%C3%A9on-Gontran_Damas\">Léon-Gontran Damas</a>&nbsp;dans le téléfilm&nbsp;<em>Césaire, le prix de la liberté</em>&nbsp;de Félix Olivier. En 2015 le réalisateur
+                        italien Francesco Cinquemani, lui offre le rôle de Fly, face à&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Alec_Baldwin\">Alec Baldwin</a>&nbsp;et&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Danny_Glover\">Danny Glover</a>&nbsp;<em>Andròn: The Black Labyrinth</em>.En
+                        2016, l’équipe de cascadeurs, dont il fait partie, reçoit une nomination aux&nbsp;<a href=\"https://fr.wikipedia.org/wiki/23e_c%C3%A9r%C3%A9monie_des_Screen_Actors_Guild_Awards\">Screen Actor guild Awards</a>&nbsp;pour
+                        leurs performances dans le film&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Jason_Bourne_(film)\"><em>Jason Bourne</em></a>&nbsp;de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Paul_Greengrass\">Paul Greengrass</a>.<br></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}", "alexmartin.html.twig", "/Users/srinathchristophersamarasinghe/Documents/DEV_DOCS/SUR_LA_PEAU_WEBSITE/sur_la_peau/templates/alexmartin.html.twig");
+    }
+}

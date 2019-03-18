@@ -21,7 +21,7 @@ class RegistrationController extends AbstractController
     public function registration()
     {
         return $this->render(
-            'registration.html.twig',
+            'ADMIN/registration.html.twig',
             ['title' => "ENREGISTREMENT - SUR LA PEAU"]
         );
     }

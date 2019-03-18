@@ -13,13 +13,13 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 
-/**
- * @Route
- * @Route("/home", name="home")
- * @return Response
- */
+
 class HomeController extends AbstractController
 {
+    /**
+     * @Route("/home", name="home")
+     * @return Response
+     */
     public function home()
     {
         return $this->render(

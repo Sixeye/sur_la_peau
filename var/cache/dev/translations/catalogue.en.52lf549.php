@@ -170,6 +170,11 @@ $catalogue = new MessageCatalogue('en', array (
     'label.form.empty_value' => 'None',
     '__name__label__' => '__name__label__',
   ),
+  'KnpPaginatorBundle' => 
+  array (
+    'label_previous' => 'Previous',
+    'label_next' => 'Next',
+  ),
 ));
 
 

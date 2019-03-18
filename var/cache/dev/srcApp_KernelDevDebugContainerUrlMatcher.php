@@ -31,6 +31,7 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/extraits' => [[['_route' => 'extraits', '_controller' => 'App\\Controller\\ExtraitsController::extraits'], null, null, null, false, false, null]],
             '/gallery' => [[['_route' => 'gallery', '_controller' => 'App\\Controller\\GalleryController::gallery'], null, null, null, false, false, null]],
             '/genese' => [[['_route' => 'genese', '_controller' => 'App\\Controller\\GeneseController::genese'], null, null, null, false, false, null]],
+            '/home' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::home'], null, null, null, false, false, null]],
             '/jmc' => [[['_route' => 'jmc', '_controller' => 'App\\Controller\\JmcController::jmc'], null, null, null, false, false, null]],
             '/jmg' => [[['_route' => 'jmg', '_controller' => 'App\\Controller\\JmgController::jmg'], null, null, null, false, false, null]],
             '/login' => [[['_route' => 'login', '_controller' => 'App\\Controller\\LoginController::login'], null, null, null, false, false, null]],

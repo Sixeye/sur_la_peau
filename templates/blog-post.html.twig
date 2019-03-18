@@ -7,14 +7,14 @@
             <div
                     class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="home">ACCUEIL</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="genese">GENESE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="actors">LES COMEDIENS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="scenario">EXTRAITS DU SCENARIO</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery">GALLERIE</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="extraits">EXTRAITS DU FILM</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list">ACTUALITES</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="blog-post">BLOG</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('home') }}>ACCUEIL</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('genese') }}>GENESE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('actors') }}>LES COMEDIENS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('scenario') }}>EXTRAITS DU SCENARIO</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('gallery') }}>GALLERIE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('extraits') }}>EXTRAITS DU FILM</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('blog-post-list') }}>ACTUALITES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href={{ path('blog-post') }}>BLOG</a></li>
                 </ul>
             </div>
         </div>
@@ -28,9 +28,13 @@
                         <h4>{{ articles.title }}</h4>
                         <div class="post-info"><span>Par Camille Jouhair</span><span>{{ articles.createdAt | date('d/m/y') }}</span></div>
                         <p>{{ articles.content }}</p>
-                        <img class="rounded img-fluid" src={{ articles.image }} alt="Une image concernant le film SUR LA PEAU, avec bords arrondis">
+                        <img class="rounded img-fluid" src={{ articles.image }}>
                     </div>
                     {% endfor %}
+
+                    <div class="navigation">
+                        {{ knp_pagination_render(article) }}
+                    </div>
                 </div>
             </div>
         </section>

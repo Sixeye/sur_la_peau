@@ -4,6 +4,7 @@ namespace App\Repository;
 
 use App\Entity\Article;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
+use Doctrine\ORM\Query;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
@@ -19,6 +20,9 @@ class ArticleRepository extends ServiceEntityRepository
         parent::__construct($registry, Article::class);
     }
 
+    /**
+     * @return mixed
+     */
     public function twoLastArticles()
     {
         return $this->createQueryBuilder('a')
@@ -30,13 +34,15 @@ class ArticleRepository extends ServiceEntityRepository
             ;
     }
 
-    public function getAllArticles()
+    /**
+     * @return Query
+     */
+    public function getAllArticles(): Query
     {
         return $this->createQueryBuilder('a')
             #->setParameter('val', $value)
             ->orderBy('a.id', 'DESC')
             ->getQuery()
-            ->getResult()
             ;
     }
 
