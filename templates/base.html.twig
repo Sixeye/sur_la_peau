@@ -32,7 +32,11 @@ Jean-Marie Godet de Srinath C. Samarasinghe">
                         <div class="col-sm-3">
                             <h5>Admin</h5>
                             <ul>
-                                <li><a href="login">Login</a></li>
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    <li><a href="{{ path('app_logout') }}">Logout</a></li>
+                                {% else %}
+                                    <li><a href="{{ path('login') }}">Login</a></li>
+                                {% endif %}
                             </ul>
                         </div>
                         <div class="col-sm-3">

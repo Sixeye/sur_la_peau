@@ -134,7 +134,7 @@ class __TwigTemplate_7c85dcbd0112adf5a774d6a7fb31c312227d20b26fe7b2c8c5548cc2215
                         </label>
                     </div>
                     <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">
-                        Sign in
+                        Entrer
                     </button>
                 </form>
 
@@ -218,7 +218,7 @@ class __TwigTemplate_7c85dcbd0112adf5a774d6a7fb31c312227d20b26fe7b2c8c5548cc2215
                         </label>
                     </div>
                     <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">
-                        Sign in
+                        Entrer
                     </button>
                 </form>
 

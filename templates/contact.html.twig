@@ -26,13 +26,21 @@
                     <h2 class="text-info">Nous écrire</h2>
                     <p>N'hésitez pas à nous contacter afin d'avoir des informations sur le film.</p>
                 </div>
-                <form>
-                    <div class="form-group"><label>Nom</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>Sujet</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>Email</label><input class="form-control" type="email"></div>
-                    <div class="form-group"><label>Message</label><textarea class="form-control"></textarea></div>
+                {% for message in app.flashes('success') %}
+                    <div class="alert alert-success">{{ message }}</div>
+                {% endfor %}
+                <div id="contactForm" class="mt-4">
+                    {{ form_start(form) }}
+                    <div class="row">
+                        <div class="col ">{{ form_row(form.lastname) }}</div>
+                        <div class="col ">{{ form_row(form.subject) }}</div>
+                        <div class="col ">{{ form_row(form.email) }}</div>
+                        <div class="col m-3">{{ form_row(form.content) }}</div>
+                    </div>
                     <div class="form-group"><button class="btn btn-light btn-block" type="submit">Envoyer</button></div>
-                </form>
+                    {{ form_end(form) }}
+                </div>
+
             </div>
         </section>
     </main>

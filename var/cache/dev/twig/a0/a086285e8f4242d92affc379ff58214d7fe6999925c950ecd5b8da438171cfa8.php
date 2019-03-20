@@ -99,13 +99,51 @@ class __TwigTemplate_d1b9d8be95929e16c0c88be33c25958f39b5fdf48c4d6663493dfa2a93e
                     <h2 class=\"text-info\">Nous écrire</h2>
                     <p>N'hésitez pas à nous contacter afin d'avoir des informations sur le film.</p>
                 </div>
-                <form>
-                    <div class=\"form-group\"><label>Nom</label><input class=\"form-control\" type=\"text\"></div>
-                    <div class=\"form-group\"><label>Sujet</label><input class=\"form-control\" type=\"text\"></div>
-                    <div class=\"form-group\"><label>Email</label><input class=\"form-control\" type=\"email\"></div>
-                    <div class=\"form-group\"><label>Message</label><textarea class=\"form-control\"></textarea></div>
+                ";
+        // line 29
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 29, $this->source); })()), "flashes", [0 => "success"], "method"));
+        foreach ($context['_seq'] as $context["_key"] => $context["message"]) {
+            // line 30
+            echo "                    <div class=\"alert alert-success\">";
+            echo twig_escape_filter($this->env, $context["message"], "html", null, true);
+            echo "</div>
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['message'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 32
+        echo "                <div id=\"contactForm\" class=\"mt-4\">
+                    ";
+        // line 33
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 33, $this->source); })()), 'form_start');
+        echo "
+                    <div class=\"row\">
+                        <div class=\"col \">";
+        // line 35
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 35, $this->source); })()), "lastname", []), 'row');
+        echo "</div>
+                        <div class=\"col \">";
+        // line 36
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 36, $this->source); })()), "subject", []), 'row');
+        echo "</div>
+                        <div class=\"col \">";
+        // line 37
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 37, $this->source); })()), "email", []), 'row');
+        echo "</div>
+                        <div class=\"col m-3\">";
+        // line 38
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 38, $this->source); })()), "content", []), 'row');
+        echo "</div>
+                    </div>
                     <div class=\"form-group\"><button class=\"btn btn-light btn-block\" type=\"submit\">Envoyer</button></div>
-                </form>
+                    ";
+        // line 41
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 41, $this->source); })()), 'form_end');
+        echo "
+                </div>
+
             </div>
         </section>
     </main>
@@ -131,7 +169,7 @@ class __TwigTemplate_d1b9d8be95929e16c0c88be33c25958f39b5fdf48c4d6663493dfa2a93e
 
     public function getDebugInfo()
     {
-        return array (  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  143 => 41,  137 => 38,  133 => 37,  129 => 36,  125 => 35,  120 => 33,  117 => 32,  108 => 30,  104 => 29,  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -164,13 +202,21 @@ class __TwigTemplate_d1b9d8be95929e16c0c88be33c25958f39b5fdf48c4d6663493dfa2a93e
                     <h2 class=\"text-info\">Nous écrire</h2>
                     <p>N'hésitez pas à nous contacter afin d'avoir des informations sur le film.</p>
                 </div>
-                <form>
-                    <div class=\"form-group\"><label>Nom</label><input class=\"form-control\" type=\"text\"></div>
-                    <div class=\"form-group\"><label>Sujet</label><input class=\"form-control\" type=\"text\"></div>
-                    <div class=\"form-group\"><label>Email</label><input class=\"form-control\" type=\"email\"></div>
-                    <div class=\"form-group\"><label>Message</label><textarea class=\"form-control\"></textarea></div>
+                {% for message in app.flashes('success') %}
+                    <div class=\"alert alert-success\">{{ message }}</div>
+                {% endfor %}
+                <div id=\"contactForm\" class=\"mt-4\">
+                    {{ form_start(form) }}
+                    <div class=\"row\">
+                        <div class=\"col \">{{ form_row(form.lastname) }}</div>
+                        <div class=\"col \">{{ form_row(form.subject) }}</div>
+                        <div class=\"col \">{{ form_row(form.email) }}</div>
+                        <div class=\"col m-3\">{{ form_row(form.content) }}</div>
+                    </div>
                     <div class=\"form-group\"><button class=\"btn btn-light btn-block\" type=\"submit\">Envoyer</button></div>
-                </form>
+                    {{ form_end(form) }}
+                </div>
+
             </div>
         </section>
     </main>

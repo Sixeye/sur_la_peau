@@ -58,10 +58,10 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
         // line 28
         echo "        ";
         $this->displayBlock('footer', $context, $blocks);
-        // line 61
+        // line 65
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 68
+        // line 72
         echo "    </body>
 </html>
 ";
@@ -155,8 +155,23 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                         <div class=\"col-sm-3\">
                             <h5>Admin</h5>
                             <ul>
-                                <li><a href=\"login\">Login</a></li>
-                            </ul>
+                                ";
+        // line 35
+        if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) {
+            // line 36
+            echo "                                    <li><a href=\"";
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
+            echo "\">Logout</a></li>
+                                ";
+        } else {
+            // line 38
+            echo "                                    <li><a href=\"";
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("login");
+            echo "\">Login</a></li>
+                                ";
+        }
+        // line 40
+        echo "                            </ul>
                         </div>
                         <div class=\"col-sm-3\">
                             <h5>A propos&nbsp;</h5>
@@ -189,7 +204,7 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
 
     }
 
-    // line 61
+    // line 65
     public function block_javascripts($context, array $blocks = [])
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -198,7 +213,7 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 62
+        // line 66
         echo "            <script src=\"/js/jquery.min.js\"></script>
             <script src=\"/bootstrap/js/bootstrap.min.js\"></script>
             <script src=\"https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js\"></script>
@@ -220,7 +235,7 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
 
     public function getDebugInfo()
     {
-        return array (  202 => 62,  193 => 61,  152 => 29,  143 => 28,  126 => 27,  108 => 16,  99 => 15,  86 => 8,  77 => 7,  65 => 68,  62 => 61,  59 => 28,  57 => 27,  53 => 25,  51 => 15,  44 => 10,  42 => 7,  34 => 1,);
+        return array (  217 => 66,  208 => 65,  174 => 40,  168 => 38,  162 => 36,  160 => 35,  152 => 29,  143 => 28,  126 => 27,  108 => 16,  99 => 15,  86 => 8,  77 => 7,  65 => 72,  62 => 65,  59 => 28,  57 => 27,  53 => 25,  51 => 15,  44 => 10,  42 => 7,  34 => 1,);
     }
 
     public function getSourceContext()
@@ -259,7 +274,11 @@ Jean-Marie Godet de Srinath C. Samarasinghe\">
                         <div class=\"col-sm-3\">
                             <h5>Admin</h5>
                             <ul>
-                                <li><a href=\"login\">Login</a></li>
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    <li><a href=\"{{ path('app_logout') }}\">Logout</a></li>
+                                {% else %}
+                                    <li><a href=\"{{ path('login') }}\">Login</a></li>
+                                {% endif %}
                             </ul>
                         </div>
                         <div class=\"col-sm-3\">
