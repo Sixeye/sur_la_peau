@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="head_bg">
+        <div class="container"><a class="navbar-brand logo" href="#" id="navbar-title-slp">SUR LA PEAU&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('home') }}>ACCUEIL</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('genese') }}>GENESE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('actors') }}>LES COMEDIENS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('scenario') }}>EXTRAITS DU SCENARIO</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('gallery') }}>GALLERIE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('extraits') }}>EXTRAITS DU FILM</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('blog-post-list') }}>ACTUALITES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('blog-post') }}>BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page login-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Log In</h2>
+                    <p>Bienvenue - Connectez-vous</p>
+                </div>
+
+                <form class="form-signin" method="post">
+                    {% if error %}
+                        <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                    {% endif %}
+
+                    <h1 class="h3 mb-3 font-weight-normal">Connectez-vous</h1>
+                    <label for="inputEmail" class="sr-only">Adresse email</label>
+                    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+                    <label for="inputPassword" class="sr-only">Mot de passe</label>
+                    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
+
+                    <input type="hidden" name="_csrf_token"
+                           value="{{ csrf_token('authenticate') }}"
+                    >
+
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" name="_remember_me"> Se rappeler de moi
+                        </label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        Sign in
+                    </button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

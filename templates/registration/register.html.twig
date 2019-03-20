@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register{% endblock %}
+
+{% block body %}
+    <h1>Enregistrement</h1>
+
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="head_bg">
+        <div class="container"><a class="navbar-brand logo" href="#" id="navbar-title-slp">SUR LA PEAU&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('home') }}>ACCUEIL</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('genese') }}>GENESE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('actors') }}>LES COMEDIENS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('scenario') }}>EXTRAITS DU SCENARIO</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('gallery') }}>GALLERIE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('extraits') }}>EXTRAITS DU FILM</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('blog-post-list') }}>ACTUALITES</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href={{ path('blog-post') }}>BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page registration-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">CREATION DU COMPTE</h2>
+                </div>
+
+                    {{ form_start(registrationForm) }}
+                    {{ form_row(registrationForm.firstName) }}
+                    {{ form_row(registrationForm.lastName) }}
+                    {{ form_row(registrationForm.email) }}
+                    {{ form_row(registrationForm.plainPassword) }}
+
+                    <button class="btn btn-primary btn-block" type="submit">Enregistrer</button>
+                    {{ form_end(registrationForm) }}
+
+            </div>
+        </section>
+    </main>
+
+{% endblock %}
