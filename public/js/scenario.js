@@ -9,7 +9,7 @@ xhr.onload = function(){                       // When readystate changes
 
         let nombre = document.getElementById("myNumber").value;
         let num = /^\d+$/.test(nombre);
-        if (num && nombre < 166 && nombre >= 0){
+        if (num && nombre < 165 && nombre >= 0){
 
         let extraits = scenario.sequence[nombre];
 
