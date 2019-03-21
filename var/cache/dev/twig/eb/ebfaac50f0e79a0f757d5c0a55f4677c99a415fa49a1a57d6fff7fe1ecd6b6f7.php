@@ -97,7 +97,7 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
         <section class=\"clean-block features\">
             <div class=\"container\">
                 <div class=\"block-heading\">
-                    <h1 class=\"text-info\">EXTRAIT DU SCENARIO</h1>
+                    <h1 class=\"text-info\">EXTRAITS DU SCENARIO</h1>
                     <h3>Le scénario comporte 165 séquences de 0 à 164</h3>
                     <h3>Entrez le numéro de séquence qui vous intéresse:</h3>
                     <input type=\"number\" id=\"myNumber\" min=\"0\" max=\"164\" />
@@ -183,7 +183,7 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
         <section class=\"clean-block features\">
             <div class=\"container\">
                 <div class=\"block-heading\">
-                    <h1 class=\"text-info\">EXTRAIT DU SCENARIO</h1>
+                    <h1 class=\"text-info\">EXTRAITS DU SCENARIO</h1>
                     <h3>Le scénario comporte 165 séquences de 0 à 164</h3>
                     <h3>Entrez le numéro de séquence qui vous intéresse:</h3>
                     <input type=\"number\" id=\"myNumber\" min=\"0\" max=\"164\" />
