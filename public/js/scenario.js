@@ -6,13 +6,22 @@ xhr.onload = function(){                       // When readystate changes
     if(xhr.status === 200) {                      // If server status was ok
     const scenario = JSON.parse(xhr.responseText);
     document.getElementById("myButton").addEventListener("click", function(){
+
         let nombre = document.getElementById("myNumber").value;
-        //console.log(scenario.sequence[nombre]);
+        let num = /^\d+$/.test(nombre);
+        if (num){
+
         let extraits = scenario.sequence[nombre];
 
         let texte = '';
         texte += '<hr>' + 'Séquence: ' + extraits.numero + '<br><br>' + extraits.intro + '<br>' + '<br>' + extraits.txt + '<br>' + '<br>' + '<hr>'
         document.getElementById('output').innerHTML = texte;
+        } else {
+            let texte = '';
+            texte += '<hr>' + 'Une erreur s\'est produite. Veuillez réessayez.'+ '<br><br>' +  '<hr>'
+            document.getElementById('output').innerHTML = texte;
+        }
+
         });
 }};
 
