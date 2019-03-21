@@ -23,14 +23,22 @@
         <section class="clean-block features">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">EXTRAIT DU SCENARIO</h2>
-                    <p>Chaque jour un extrait original du scénario sera posté ici.</p>
+                    <h1 class="text-info">EXTRAIT DU SCENARIO</h1>
+                    <h3>Le scénario comporte 165 séquences de 0 à 164</h3>
+                    <h3>Entrez le numéro de séquence qui vous intéresse:</h3>
+                    <input type="number" id="myNumber" min="0" max="164" />
+                    <button class="btn-light" id="myButton">Validez</button>
                 </div>
                 <div class="row justify-content-center">
-                    <p>Extrait d'aujourd'hui:<br><br></p>
+                    <div id="output" style="width: 30em; margin-left: 3em;"></div>
                 </div>
             </div>
         </section>
     </main>
+
+{% endblock %}
+{% block javascripts %}
+
+    <script src="/js/scenario.js"></script>
 
 {% endblock %}

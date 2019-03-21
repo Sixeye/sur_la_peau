@@ -15,6 +15,7 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
         $this->parent = $this->loadTemplate("base.html.twig", "scenario.html.twig", 1);
         $this->blocks = [
             'body' => [$this, 'block_body'],
+            'javascripts' => [$this, 'block_javascripts'],
         ];
     }
 
@@ -96,15 +97,40 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
         <section class=\"clean-block features\">
             <div class=\"container\">
                 <div class=\"block-heading\">
-                    <h2 class=\"text-info\">EXTRAIT DU SCENARIO</h2>
-                    <p>Chaque jour un extrait original du scénario sera posté ici.</p>
+                    <h1 class=\"text-info\">EXTRAIT DU SCENARIO</h1>
+                    <h3>Le scénario comporte 165 séquences de 0 à 164</h3>
+                    <h3>Entrez le numéro de séquence qui vous intéresse:</h3>
+                    <input type=\"number\" id=\"myNumber\" min=\"0\" max=\"164\" />
+                    <button class=\"btn-light\" id=\"myButton\">Validez</button>
                 </div>
                 <div class=\"row justify-content-center\">
-                    <p>Extrait d'aujourd'hui:<br><br></p>
+                    <div id=\"output\" style=\"width: 30em; margin-left: 3em;\"></div>
                 </div>
             </div>
         </section>
     </main>
+
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 40
+    public function block_javascripts($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        // line 41
+        echo "
+    <script src=\"/js/scenario.js\"></script>
 
 ";
         
@@ -127,7 +153,7 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
 
     public function getDebugInfo()
     {
-        return array (  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  132 => 41,  123 => 40,  90 => 17,  86 => 16,  82 => 15,  78 => 14,  74 => 13,  70 => 12,  66 => 11,  62 => 10,  54 => 4,  45 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -157,16 +183,25 @@ class __TwigTemplate_93a5a6fb151aa6c92bcc245930801c13926244b42c174350c624fa894da
         <section class=\"clean-block features\">
             <div class=\"container\">
                 <div class=\"block-heading\">
-                    <h2 class=\"text-info\">EXTRAIT DU SCENARIO</h2>
-                    <p>Chaque jour un extrait original du scénario sera posté ici.</p>
+                    <h1 class=\"text-info\">EXTRAIT DU SCENARIO</h1>
+                    <h3>Le scénario comporte 165 séquences de 0 à 164</h3>
+                    <h3>Entrez le numéro de séquence qui vous intéresse:</h3>
+                    <input type=\"number\" id=\"myNumber\" min=\"0\" max=\"164\" />
+                    <button class=\"btn-light\" id=\"myButton\">Validez</button>
                 </div>
                 <div class=\"row justify-content-center\">
-                    <p>Extrait d'aujourd'hui:<br><br></p>
+                    <div id=\"output\" style=\"width: 30em; margin-left: 3em;\"></div>
                 </div>
             </div>
         </section>
     </main>
 
-{% endblock %}", "scenario.html.twig", "/Users/srinathchristophersamarasinghe/Documents/DEV_DOCS/SUR_LA_PEAU_WEBSITE/sur_la_peau/templates/scenario.html.twig");
+{% endblock %}
+{% block javascripts %}
+
+    <script src=\"/js/scenario.js\"></script>
+
+{% endblock %}
+", "scenario.html.twig", "/Users/srinathchristophersamarasinghe/Documents/DEV_DOCS/SUR_LA_PEAU_WEBSITE/sur_la_peau/templates/scenario.html.twig");
     }
 }
