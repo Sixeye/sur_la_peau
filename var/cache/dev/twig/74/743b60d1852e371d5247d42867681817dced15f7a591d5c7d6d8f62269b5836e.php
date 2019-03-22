@@ -120,7 +120,9 @@ class __TwigTemplate_56b747d462b3a9f98390f27549289b11e8b0f5b8ed6b3e0a57f18580bda
                                 <div class=\"info\"><span class=\"text-muted\">";
             // line 36
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "createdAt", []), "d/m/y"), "html", null, true);
-            echo " par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
+            echo " par&nbsp;<a>";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "author", []), "html", null, true);
+            echo "</a></span></div>
                                 <p>";
             // line 37
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "content", []), "html", null, true);
@@ -159,7 +161,7 @@ class __TwigTemplate_56b747d462b3a9f98390f27549289b11e8b0f5b8ed6b3e0a57f18580bda
 
     public function getDebugInfo()
     {
-        return array (  137 => 42,  126 => 37,  122 => 36,  118 => 35,  113 => 33,  108 => 30,  104 => 29,  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  139 => 42,  128 => 37,  122 => 36,  118 => 35,  113 => 33,  108 => 30,  104 => 29,  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -199,7 +201,7 @@ class __TwigTemplate_56b747d462b3a9f98390f27549289b11e8b0f5b8ed6b3e0a57f18580bda
                             <div class=\"col-lg-5\"><img class=\"rounded img-fluid\" src=\"{{ articles.image }}\"></div>
                             <div class=\"col-lg-7\">
                                 <h3>{{ articles.title }}</h3>
-                                <div class=\"info\"><span class=\"text-muted\">{{ articles.createdAt | date('d/m/y') }} par&nbsp;<a href=\"#\">Camille Jouhair</a></span></div>
+                                <div class=\"info\"><span class=\"text-muted\">{{ articles.createdAt | date('d/m/y') }} par&nbsp;<a>{{ articles.author }}</a></span></div>
                                 <p>{{ articles.content }}</p></div>
                         </div>
                     </div>

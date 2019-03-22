@@ -31,7 +31,7 @@ class __TwigTemplate_4a8e1bc7aa930c09bba7704da961eb39f92d04a4cee3a182a827ca12a85
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/page/content.html.twig"));
 
         // line 1
-        $context["__internal_e32299e4ade7ddc647aa0f259e5b297108c2dff1b9c1444f3772d0163aa563e8"] = $this->extensions['EasyCorp\Bundle\EasyAdminBundle\Twig\EasyAdminTwigExtension']->getBackendConfiguration("translation_domain");
+        $context["__internal_d898b9cea8ea60cdcda113cb83c56c71c189760192d12185004c2d3fc2976a05"] = $this->extensions['EasyCorp\Bundle\EasyAdminBundle\Twig\EasyAdminTwigExtension']->getBackendConfiguration("translation_domain");
         // line 2
         $this->getParent($context)->display($context, array_merge($this->blocks, $blocks));
         
