@@ -107,8 +107,10 @@ class __TwigTemplate_2ce32f550486624a478c7220c2e2e5f033c15e7a35ede1d99045430e358
             // line 28
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "title", []), "html", null, true);
             echo "</h4>
-                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>";
+                        <div class=\"post-info\"><span>";
             // line 29
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "author", []), "html", null, true);
+            echo "</span><span>";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["articles"], "createdAt", []), "d/m/y"), "html", null, true);
             echo "</span></div>
                         <p>";
@@ -159,7 +161,7 @@ class __TwigTemplate_2ce32f550486624a478c7220c2e2e5f033c15e7a35ede1d99045430e358
 
     public function getDebugInfo()
     {
-        return array (  133 => 36,  129 => 34,  120 => 31,  116 => 30,  112 => 29,  108 => 28,  105 => 27,  101 => 26,  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
+        return array (  135 => 36,  131 => 34,  122 => 31,  118 => 30,  112 => 29,  108 => 28,  105 => 27,  101 => 26,  89 => 17,  85 => 16,  81 => 15,  77 => 14,  73 => 13,  69 => 12,  65 => 11,  61 => 10,  53 => 4,  44 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -192,7 +194,7 @@ class __TwigTemplate_2ce32f550486624a478c7220c2e2e5f033c15e7a35ede1d99045430e358
                     {% for articles in article %}
                     <div id=\"article-body\" class=\"post-body\">
                         <h4>{{ articles.title }}</h4>
-                        <div class=\"post-info\"><span>Par Camille Jouhair</span><span>{{ articles.createdAt | date('d/m/y') }}</span></div>
+                        <div class=\"post-info\"><span>{{ articles.author }}</span><span>{{ articles.createdAt | date('d/m/y') }}</span></div>
                         <p>{{ articles.content }}</p>
                         <img class=\"rounded img-fluid\" src={{ articles.image }}>
                     </div>

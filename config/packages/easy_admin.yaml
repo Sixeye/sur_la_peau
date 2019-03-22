@@ -4,3 +4,7 @@ easy_admin:
         - App\Entity\Article
 #       - App\Entity\Category
 #       - App\Entity\User
+
+    user:
+        display_name: true
+        name_property_path: 'firstName'

@@ -33,7 +33,7 @@
                             <div class="col-lg-5"><img class="rounded img-fluid" src="{{ articles.image }}"></div>
                             <div class="col-lg-7">
                                 <h3>{{ articles.title }}</h3>
-                                <div class="info"><span class="text-muted">{{ articles.createdAt | date('d/m/y') }} par&nbsp;<a href="#">Camille Jouhair</a></span></div>
+                                <div class="info"><span class="text-muted">{{ articles.createdAt | date('d/m/y') }} par&nbsp;<a>{{ articles.author }}</a></span></div>
                                 <p>{{ articles.content }}</p></div>
                         </div>
                     </div>

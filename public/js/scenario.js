@@ -5,7 +5,8 @@ xhr.onload = function(){                       // When readystate changes
 
     if(xhr.status === 200) {                      // If server status was ok
     const scenario = JSON.parse(xhr.responseText);
-    document.getElementById("myButton").addEventListener("click", function(){
+    document.getElementById("myButton").addEventListener("click", function()
+    {
 
         let nombre = document.getElementById("myNumber").value;
         let num = /^\d+$/.test(nombre);
@@ -22,7 +23,7 @@ xhr.onload = function(){                       // When readystate changes
             document.getElementById('output').innerHTML = texte;
         }
 
-        });
+    });
 }};
 
 xhr.open('GET', url, true);        // Prepare the request
